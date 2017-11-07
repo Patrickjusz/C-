@@ -1,6 +1,6 @@
 /*
  * File:   szyfrowanieXor.cpp
- * Author: PatrickJusz
+ * Author: Patrickjusz
  *
  */
 #include <cstdio>
