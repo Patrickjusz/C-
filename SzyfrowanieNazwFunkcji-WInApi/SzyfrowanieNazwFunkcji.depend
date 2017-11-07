@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1473539450 source:c:\users\patryk\desktop\aplikacje magisterka\6 szyfrowanie nazw funkcji i bibliotek\szyfrowanienazwfunkcji\main.cpp
+	<string>
+	<windows.h>
+	<iostream>
+
+1473602963 source:c:\users\patryk\desktop\4 szyfrowanie nazw funkcji i bibliotek\szyfrowanienazwfunkcji\main.cpp
+	<string>
+	<windows.h>
+	<iostream>
+	<stringCrypter.h>
+
+1473603093 c:\users\patryk\desktop\4 szyfrowanie nazw funkcji i bibliotek\szyfrowanienazwfunkcji\include\stringcrypter.h
+	<iostream>
+	<cstring>
+
+1473603086 source:c:\users\patryk\desktop\4 szyfrowanie nazw funkcji i bibliotek\szyfrowanienazwfunkcji\src\stringcrypter.cpp
+	"stringCrypter.h"
+
+1473857333 source:c:\users\patryk\desktop\aplikacje magisterka\4 szyfrowanie nazw funkcji i bibliotek\szyfrowanienazwfunkcji\main.cpp
+	<string>
+	<windows.h>
+	<iostream>
+	<StringCrypter.h>
+
+1473857333 c:\users\patryk\desktop\aplikacje magisterka\4 szyfrowanie nazw funkcji i bibliotek\szyfrowanienazwfunkcji\include\stringcrypter.h
+	<iostream>
+	<cstring>
+
+1473857333 source:c:\users\patryk\desktop\aplikacje magisterka\4 szyfrowanie nazw funkcji i bibliotek\szyfrowanienazwfunkcji\src\stringcrypter.cpp
+	"StringCrypter.h"
+
