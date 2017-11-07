@@ -1,0 +1,3 @@
+EXPORTS
+    _Z12addAutostartv @1
+    _get_output_format @2
