@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f2" displayName="Mail" projectFiles="true">
+        <logicalFolder name="f1" displayName="smtp_lib_h" projectFiles="true">
+          <itemPath>Message.h</itemPath>
+          <itemPath>SMTPTransoprt.h</itemPath>
+        </logicalFolder>
+        <itemPath>Mail.h</itemPath>
+        <itemPath>MailAccont.h</itemPath>
+      </logicalFolder>
+      <itemPath>Application.h</itemPath>
+      <itemPath>Autorun.h</itemPath>
+      <itemPath>Clipboard.h</itemPath>
+      <itemPath>Config.h</itemPath>
+      <itemPath>Keylogger.h</itemPath>
+      <itemPath>Log.h</itemPath>
+      <itemPath>TimeLog.h</itemPath>
+      <itemPath>Window.h</itemPath>
+      <itemPath>Xor.h</itemPath>
+      <itemPath>antyAv.h</itemPath>
+      <itemPath>newWinApi.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f2" displayName="Mail" projectFiles="true">
+        <logicalFolder name="f1" displayName="smto_lib_cpp" projectFiles="true">
+          <itemPath>Message.cpp</itemPath>
+          <itemPath>SMTPTransport.cpp</itemPath>
+        </logicalFolder>
+        <itemPath>Mail.cpp</itemPath>
+        <itemPath>MailAccont.cpp</itemPath>
+      </logicalFolder>
+      <itemPath>Application.cpp</itemPath>
+      <itemPath>Autorun.cpp</itemPath>
+      <itemPath>Clipboard.cpp</itemPath>
+      <itemPath>Config.cpp</itemPath>
+      <itemPath>Keylogger.cpp</itemPath>
+      <itemPath>Log.cpp</itemPath>
+      <itemPath>TimeLog.cpp</itemPath>
+      <itemPath>Window.cpp</itemPath>
+      <itemPath>Xor.cpp</itemPath>
+      <itemPath>antyAv.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>newWinApi.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>newhtml.html</itemPath>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>smtp_lib</Elem>
+    <Elem>../../../Downloads/libbgi</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerOptionItem>-lws2_32</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Application.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Application.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Autorun.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Autorun.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Clipboard.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Clipboard.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Keylogger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Keylogger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Log.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Mail.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Mail.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MailAccont.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MailAccont.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Message.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Message.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SMTPTransoprt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SMTPTransport.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TimeLog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TimeLog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Window.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Window.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Xor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Xor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="antyAv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="antyAv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="newWinApi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="newWinApi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="newhtml.html" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+          <commandlineTool>as</commandlineTool>
+        </asmTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerOptionItem>-lws2_32</linkerOptionItem>
+            <linkerOptionItem>-static-libgcc</linkerOptionItem>
+            <linkerOptionItem>-static-libstdc++</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Application.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Application.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Autorun.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Autorun.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Clipboard.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Clipboard.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Keylogger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Keylogger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Log.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Mail.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Mail.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="MailAccont.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MailAccont.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Message.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Message.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SMTPTransoprt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SMTPTransport.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TimeLog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TimeLog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Window.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Window.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Xor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Xor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="antyAv.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="antyAv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="newWinApi.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="newWinApi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="newhtml.html" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
